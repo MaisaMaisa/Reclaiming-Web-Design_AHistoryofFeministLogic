@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: auto;
+  cursor: none;
+}
+
+.center-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.hover-text {
+  position: relative;
+}
+
+.hover-text .hover-content {
+  visibility: hidden;
+  width: 200px;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-text::first-letter {
+  text-decoration: underline;
+}
+
+.hover-text:hover {
+  text-decoration: underline;
+}
+
+.hover-text:hover .hover-content {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.hover-content{
+  visibility: visible;
+}
+
+/* RECLAIMING */
+.first{
+  left: -50%!important;
+}
+
+.firstandahalf{
+  top: 60%!important;
+  width: 1000px!important;
+}
+
+.firstsecond{
+  left: -50%!important;
+  top: -50vh!important;
+}
+
+.firstthird{
+  right: -150%!important;
+  top: -30vh!important;
+}
+
+.firstfourth{
+  left: 300%!important;
+  top: -30vh!important;
+}
+
+.firstfifth{
+  right: -290%!important;
+  top: 200%!important;
+}
+
+.firstsixth{
+  left: -290%!important;
+  top: 800%!important;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+img{
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+/* WEB DESIGN */
+.second{
+  top: 300%!important;
+  left: -10%!important;
+  width: 400px!important;
+}
+
+.secondsecond{
+  top: 800%!important;
+  width: 500px!important;
+}
+
+.secondsecondsecond{
+  top: 500%!important;
+  left: -380%!important;
+  width: 500px!important;
+}
+
+.secondthird{
+  width: 800px!important;
+  top: -800%!important;
+}
+
+.secondfourth{
+  width: 800px!important;
+  top: -845%!important;
+  left: -30%!important;
+}
+
+.secondfifth{
+  width: 800px!important;
+  top: -895%!important;
+  left: 30%!important;
+}
+
+/* HISTORY */
+.third{
+  top: 300%!important;
+  left: -10%!important;
+  width: 400px!important;
+}
+
+.thirdsecond{
+  width: 350px!important;
+  left: -290%!important;
+  top: 800%!important;
+}
+
+.thirdthird{
+  width: 1500px!important;
+  top: -800%!important;
+  right: -500%!important;
+}
+
+/* FEMINIST LOGIC */
+.fourth{
+  width: 600px!important;
+  left: -50%;
+}
+
+.fourth2{
+  top: -500%!important;
+}
+
+.fourth3{
+  left: -300%!important;
+  top: -900%!important;
+}
+
+.fourth4{
+  left: -300%!important;
+  top: 900%!important;
+}
